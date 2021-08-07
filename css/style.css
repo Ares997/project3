@@ -262,6 +262,7 @@ header .header-2.header-active{
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    font-size: 24px;
 }
 
 .dish .image-container .image{
@@ -287,6 +288,32 @@ header .header-2.header-active{
     color:var(--red);
     text-decoration: underline;
 }
+
+
+  .ReadMore {
+    display: none;
+    
+  }
+  .dish .read-more-btn {
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(141, 19, 19);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .image-container.show-more .ReadMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    font-size: 24px;
+  }
+  .image-container.show-more .dots {
+    display: none;
+  }
 
 .chef{
     min-height: 100vh;
