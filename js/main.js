@@ -45,5 +45,18 @@ $(document).ready(function(){
         }
 
     });
+     const readMoreBtn = document.querySelector(".read-more-btn");
+    const text = document.querySelector(".image-container");
+    console.log(readMoreBtn);
+  
+    readMoreBtn.addEventListener("click", (e) => {
+      console.log("sddsds");
+      text.classList.toggle("show-more");
+      if (readMoreBtn.innerText === "Read More") {
+        readMoreBtn.innerText = "Read Less";
+      } else {
+        readMoreBtn.innerText = "Read More";
+      }
+    });
 
 });
